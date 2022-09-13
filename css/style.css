@@ -28,12 +28,49 @@ h1{
 /* /header */
 
 /* box centrale */
-.box{
+
+section{
     width: 50%;
-    height: 700px;
-    background-color: white;
     margin-right: 25%;
     margin-left:25%;
-    border-radius: 1%;
 }
+nav{
+    height: 50px;
+    background-color: white;
+    padding-left: 70px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-color: #cecece;
+    border-bottom: 2px;
+    border-color: #cecece;
+}
+
+/* buttons */
+button{
+    margin-top: 11px;
+    padding: 5px;
+    border-radius: 5px;
+    vertical-align: middle; 
+}
+
+#buttontask{
+    background-color: #45ABEA;
+    color: white;
+    border: #45ABEA;
+}
+
+#buttonsection{
+    background-color: white;
+    color: #cecece;
+    border-color: #cecece;
+}
+
+/* buttons */
+
+
+
+
+
+
+
 /* box centrale */
