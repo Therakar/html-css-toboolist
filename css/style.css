@@ -33,6 +33,7 @@ section{
     width: 50%;
     margin-right: 25%;
     margin-left:25%;
+    margin-top: 2px;
 }
 nav{
     height: 50px;
@@ -67,10 +68,50 @@ button{
 
 /* buttons */
 
+main{
+    padding: 40px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    margin-top: 2px;
+}
 
+.circle{
+    display: inline-block;
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    border: 1px;
+    border-radius: 50%;
+    border-width: 1px;
+    border-style: solid;
+}
 
+.circle-check{
+    color: green;
+    border-color: green;
+}
 
+.circle-cross{
+    color: red;
+    border-color: red;
+}
 
+h4{
+    display: inline-block;
+    padding: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
+.label{
+    color:white;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.azzurro{
+    background-color: #45ABEA;
+}
 
 /* box centrale */
